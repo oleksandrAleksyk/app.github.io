@@ -1,0 +1,36 @@
+.app {
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  color: #000000;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.list {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  height: 89vh;
+  width: 90%;
+  margin: 0 auto;
+}
+.list .message {
+  background-color: #070000;
+  color: #ffffff;
+  width: 100%;
+  text-align: right;
+  padding: 5px;
+  text-decoration: underline;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=list.css.map */
